@@ -1,4 +1,4 @@
-package com.dubrouskaya.kafka;
+package com.dubrouskaya.kafka.consumer;
 
 import com.dubrouskaya.kafka.schema.Customer;
 import io.confluent.kafka.serializers.KafkaAvroDeserializer;
