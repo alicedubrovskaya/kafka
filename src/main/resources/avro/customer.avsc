@@ -1,0 +1,22 @@
+{
+  "type": "record",
+  "name": "Customer",
+  "namespace": "com.dubrouskaya.kafka.schema",
+  "fields": [
+    {
+      "name": "firstName",
+      "type": "string",
+      "default": "meeting"
+    },
+    {
+      "name": "lastName",
+      "type": "string",
+      "default": "daily"
+    },
+    {
+      "name": "age",
+      "type": "int",
+      "default": 25
+    }
+  ]
+}
